@@ -1,0 +1,96 @@
+/*
+html, body, div, table, section, input, a
+{
+	.box-sizing();
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{
+    font-family: 'TheSaB5','Trebuchet MS',Arial,Helvetica,sans-serif;
+    color: #333;
+    margin: 0px;
+	padding: 0px;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #001155;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+ul { // browser defaults reset
+	padding-left: 0;
+	margin: 0 0;
+}
+
+
+*/
+
+.zoin-layout {
+    width: 900px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.zoin-employee-card {
+    height: 700px;
+    /*box-shadow: 0 0 5px #BBBBBB;*/
+    border: 1px solid #dedede;
+    padding: 0 10px;
+    background-color: white !important;
+}
+.zoin-content-inlay {
+    margin-top: 1em;
+    display: inline-block;
+}
+.zoin-content-inlay p {
+    margin: 1em 0;
+}
+.zoin-level-entry {
+    float: left;
+    margin-right: 30px;
+    text-align: center;
+}
+.zoin-level-box {
+    display: inline-block;
+    border: 3px solid black;
+    height: 20px;
+    width: 20px;
+    margin: 0 auto;
+}
+.zoin-skill-box {
+    display: inline-block;
+    border: 1px solid black;
+    height: 30px;
+    width: 60px;
+}
+.zoin-box-dashed {
+    border-style: dashed;
+}
+.zoin-badge img {
+    background: none repeat scroll 0 0 white;
+    width: 130px;
+    /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);*/
+    border: 1px solid #dedede;
+    display: inline;
+    padding: 10px 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.15s linear 0s;
+    z-index: 0;
+}
+.zoin-barometer {
+    border: 1px solid #dedede;
+    height: 190px;
+}
+.zoin-barometer img {
+    height: 190px;
+    margin-left: 5px;
+}

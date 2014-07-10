@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>.: Zoin - Employee Card :.</title>
+
+    <meta name="description" content="The employee card of the ressource and staffing gamification project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Type your name here">
+
+
+    <link rel="stylesheet" href="css/zoin.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+
+
+</head>
+
+<body>
+    <div id="skillCardTemplate" style="display: none;">
+        {{#employees}}
+        <div class="zoin-layout container">
+            <div class="zoin-employee-card row jumbotron" id="{{id}}">
+                <div class="row col-md-12 zoin-content-inlay">
+                    <div class="col-md-2 zoin-badge">
+                        <img src="images/{{img}}" />
+                    </div>
+                    <div class="col-md-8">
+                        <h1>{{name}}</h1>
+                        <h3>Level</h3>
+                        {{#levels}}
+                        <div class="zoin-level-entry">
+                            {{level}}</br>
+                            <span class="zoin-level-box {{borderclass}}"></span>
+                        </div>
+                        {{/levels}}
+                    </div>
+                    <div class="col-md-2 zoin-barometer {{borderclass}}">
+                        <img src="images/thermo.svg" />
+                    </div>
+                </div>
+                <div class="row col-md-12">
+                    <h2>Skills</h2>
+                </div>
+
+                <div class="row col-md-12">
+                    <span class="col-md-4"></span>
+                    <div class="col-md-2">Low</div>
+                    <div class="col-md-2">Moderate</div>
+                    <div class="col-md-2">Expert</div>
+                </div>
+                {{#skills}}
+                <div class="row col-md-12">
+                    <span class="col-md-4">{{skill_name}}</span>
+                    <div class="col-md-2"><span class="zoin-skill-box {{borderclass}}"></span>
+                    </div>
+                    <div class="col-md-2"><span class="zoin-skill-box {{borderclass}}"></span>
+                    </div>
+                    <div class="col-md-2"><span class="zoin-skill-box {{borderclass}}"></span>
+                    </div>
+                </div>
+                {{/skills}}
+            </div>
+        </div>
+        {{/employees}}
+    </div>
+    <script src="js/jquery-1.11.1.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mustache.js"></script>
+    <script src="js/html2canvas.js"></script>
+    <script src="js/zoin.js"></script>
+</body>
