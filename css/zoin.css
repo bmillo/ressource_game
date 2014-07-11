@@ -35,12 +35,15 @@ ul { // browser defaults reset
 */
 
 .zoin-layout {
+    font-size: 16px;
+}
+.zoin-layout {
     width: 900px;
     margin: 0 auto;
     padding: 30px 0;
 }
 .zoin-employee-card {
-    height: 700px;
+    height: 720px;
     /*box-shadow: 0 0 5px #BBBBBB;*/
     border: 1px solid #dedede;
     padding: 0 10px;
@@ -61,6 +64,22 @@ ul { // browser defaults reset
 .zoin-level-box {
     display: inline-block;
     border: 3px solid black;
+    height: 20px;
+    width: 20px;
+    margin: 0 auto;
+}
+.zoin-pensum-entry {
+    float: left;
+    margin-right: 15px;
+    text-align: center;
+    width: 60px;
+}
+.zoin-top-spacer {
+    margin-top: 15px;
+}
+.zoin-pensum-box {
+    display: inline-block;
+    border: 1px solid black;
     height: 20px;
     width: 20px;
     margin: 0 auto;

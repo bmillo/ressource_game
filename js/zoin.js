@@ -2,7 +2,13 @@
     employeeData = {
         "employees": [
             {
-                "id": "ggg",
+                "id": "bc1",
+                "img": "ggg.jpeg",
+                "name": "Best Candidate",
+                "borderclass": "zoin-box-dashed"
+            },
+            {
+                "id": "bc2",
                 "img": "ggg.jpeg",
                 "name": "Best Candidate",
                 "borderclass": "zoin-box-dashed"
@@ -21,34 +27,56 @@
         "levels": [{
             "level": "JSE"
         }, {
+            "level": "SE"
+        }, {
             "level": "SSE"
+        }, {
+            "level": "PL"
         }, {
             "level": "PC"
         }, {
             "level": "LA"
         }, {
-            "level": "BUL"
+            "level": "BA"
         }, {
-            "level": "D"
+            "level": "UE"
+        }],
+        "pensum": [{
+            "days": "1 Tag ",
+            "year": "1/4 Jahr"
+        }, {
+            "days": "2 Tage",
+            "year": "1/2 Jahr"
+        }, {
+            "days": "3 Tage",
+            "year": "3/4 Jahr"
+        }, {
+            "days": "4 Tage",
+            "year": "1 Jahr"
+        }, {
+            "days": "5 Tage",
+            "year": "2 Jahre"
         }],
         "skills": [{
             "skill_name": "Java"
         }, {
-            "skill_name": "XSLT"
+            "skill_name": "Projekt Management"
         }, {
             "skill_name": "Database"
         }, {
             "skill_name": "JavaScript"
         }, {
-            "skill_name": "Selenium"
+            "skill_name": "Continous Testing"
         }, {
-            "skill_name": "Build Tools"
+            "skill_name": "Requirements Engineering"
         }, {
-            "skill_name": "Scrum"
+            "skill_name": "Team Coaching"
         }, {
-            "skill_name": "Architekur"
+            "skill_name": "Architektur"
         }, {
             "skill_name": "Mobile Development"
+        }, {
+            "skill_name": "Interaction Design"
         }]
     };
     var template = $('#skillCardTemplate').html();
