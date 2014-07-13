@@ -23,6 +23,67 @@
                 "img": "csu.jpeg",
                 "name": "Christoph Suess"
             }
+            ,
+            {
+                "id": "bmi",
+                "img": "bmi.jpeg",
+                "name": "Ben Millo"
+            },
+            {
+                "id": "cbu",
+                "img": "cbu.jpeg",
+                "name": "Christian Bullita"
+            },
+            {
+                "id": "chb",
+                "img": "chb.jpeg",
+                "name": "Christoph Buchendorfer"
+            },
+            {
+                "id": "dor",
+                "img": "dor.jpeg",
+                "name": "Dorotha Janiszewska"
+            },
+            {
+                "id": "hko",
+                "img": "hko.jpeg",
+                "name": "Herwig Kohl"
+            },
+            {
+                "id": "jotr",
+                "img": "jotr.jpeg",
+                "name": "Troester Joerg"
+            },
+            {
+                "id": "ksc",
+                "img": "ksc.jpeg",
+                "name": "Kai Schwidder"
+            },
+            {
+                "id": "mdo",
+                "img": "mdo.jpeg",
+                "name": "Martin Dohrau"
+            },
+            {
+                "id": "min",
+                "img": "min.jpeg",
+                "name": "Michael Inden"
+            },
+            {
+                "id": "mlz",
+                "img": "mlz.jpeg",
+                "name": "Magdalena Luz"
+            },
+            {
+                "id": "qm",
+                "img": "qm.jpeg",
+                "name": "Michael Qvortrup"
+            },
+            {
+                "id": "uho",
+                "img": "uho.jpeg",
+                "name": "Urs Hofmänner"
+            }
         ],
         "levels": [{
             "level": "JSE"

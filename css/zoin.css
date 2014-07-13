@@ -113,3 +113,6 @@ ul { // browser defaults reset
     height: 190px;
     margin-left: 5px;
 }
+.jumbotron h1 {
+    font-size: 58px !important;
+}
